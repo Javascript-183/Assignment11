@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1>Product Search and Slider</h1>
+      <input
+        id="userInput"
+        placeholder="Search Here"
+        onkeyup="searchContact()"
+      />
+      <div class="filter">
+        <div class="divName">Acer</div>
+        <div class="divName">Lenovo</div>
+        <div class="divName">HP</div>
+        <div class="divName">MSI</div>
+        <div class="divName">Google</div>
+        <div class="divName">iPhone</div>
+        <div class="divName">Asus</div>
+        <div class="divName">Samsung</div>
+      </div>
+      <!-- ავტომატური სლაიდერი -->
+      <section class="slider auto-slider">
+        <h2>Automatic Slider</h2>
+        <div class="slides">
+          <div class="laptop">
+            <img class="acer" src="./image/Acer_LAPTOP1.jpg" alt="ACER" />
+            <img class="acer" src="./image/Acer_LAPTOP2.jpg" alt="ACER" />
+            <img class="acer" src="./image/Acer_LAPTOP3.jpg" alt="ACER" />
+            <p class="laptopName">ACER laptop</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="laptop">
+            <img class="hp" src="./image/HP_LAPTOP1.jpg" alt="HP" />
+            <img class="hp" src="./image/HP_LAPTOP2.jpg" alt="HP" />
+            <img class="hp" src="./image/HP_LAPTOP3.jpg" alt="HP" />
+            <p class="laptopName">HP Laptop</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="laptop">
+            <img class="lenovo" src="./image/LENOVO_LAPTOP1.jpg" alt="LENOVO" />
+            <img class="lenovo" src="./image/LENOVO_LAPTOP2.jpg" alt="LENOVO" />
+            <img class="lenovo" src="./image/LENOVO_LAPTOP3.jpg" alt="LENOVO" />
+            <p class="laptopName">LENOVO Laptop</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="laptop">
+            <img class="msi" src="./image/MSI_LAPTOP1.jpg" alt="MSI" />
+            <img class="msi" src="./image/MSI_LAPTOP2.jpg" alt="MSI" />
+            <img class="msi" src="./image/MSI_LAPTOP3.jpg" alt="MSI" />
+            <p class="laptopName">MSI Laptop</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/filter.js"></script>
+  </body>
+</html>
